@@ -1,19 +1,22 @@
 /* This is the css code for HEAD of the website */
-body{
+
+body {
     background-image: url(../images/background.jpg);
 }
+
 .container {
     display: inline-block;
     box-shadow: 10px 10px 10px;
     width: 80%;
     margin-left: 150px;
     background-color: white;
-    
 }
-.container img{
+
+.container img {
     padding-right: 110px;
-    
 }
+
+
 /*.head {
     display: inline-block;
     box-shadow: 10px 10px 10px;
@@ -25,7 +28,6 @@ body{
 /* This is the css for Menu */
 
 .head ul li {
-    
     float: left;
     margin-left: 10px;
     list-style: none;
@@ -51,47 +53,42 @@ body{
 
 /* This is the css for Body */
 
-.body {
-    
-}
+.body {}
 
 
 /* This is the css for Footer */
-.footer ul li{
 
-   list-style: none;
-   display: inline-block;
-     margin-left: 150px;
-    
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 150px;
 }
 
-.footer ul li a{
-  text-decoration: none;
-  color: orangered;
-  font-size: 20px;
-  
-  
-    
+.footer ul li a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
 }
-.footer ul li a:hover{
-  text-decoration: none;
-  color: darkgreen;
-    
+
+.footer ul li a:hover {
+    text-decoration: none;
+    color: darkgreen;
 }
 
 
 /* This is the css for Social Network Bar */
 
-.social{
+.social {
     display: inline-block;
     position: fixed;
 }
-.social ul li{
-   list-style: none;
-   padding-bottom: 70px;
+
+.social ul li {
+    list-style: none;
+    padding-bottom: 70px;
 }
 
-.social a{
+.social a {
     display: inline-block;
     position: fixed;
     color: white;
@@ -99,12 +96,71 @@ body{
 }
 
 
+/*Code for Resposive site*/
 
+@media only screen and (max-width: 1280px) {
+    #logo {
+        display: none;
+    }
+    #banner {
+        width: 100%;
+    }
+    .head ul li a {
+        text-decoration: none;
+        color: orangered;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+}
 
+@media only screen and (max-width: 1024px) {
+    .head ul li a {
+        text-decoration: none;
+        color: orangered;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+    .head ul li a {
+        text-decoration: none;
+        color: orangered;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
 
+@media only screen and (max-width: 804px) {
+    #logo {
+        display: none;
+    }
+    #banner {
+        width: 100%;
+    }
+    .social {
+        display: none;
+    }
+    .container {
+        margin: 0px;
+        width: 100%;
+    }
+}
 
+@media only screen and (max-width: 640px) {
+    .head ul li a {
+        text-decoration: none;
+        color: orangered;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+}
 
-
-
-
+@media only screen and (max-width: 480px) {
+    .head ul li a {
+        text-decoration: none;
+        color: orangered;
+        margin: 0px;
+        font-size: 15px;
+    }
+}
