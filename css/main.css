@@ -116,15 +116,6 @@ body {
     }
 }
 
-@media only screen and (max-width: 1024px) {
-    .head ul li a {
-        text-decoration: none;
-        color: orangered;
-        margin-left: 30px;
-        font-size: 20px;
-    }
-}
-
 @media only screen and (max-width: 1168px) {
     .head ul li a {
         text-decoration: none;
@@ -137,7 +128,7 @@ body {
     .head ul li a {
         text-decoration: none;
         color: orangered;
-        margin-left: 43px;
+        margin-left: 30px;
         font-size: 20px;
     }
 }
@@ -146,12 +137,12 @@ body {
     .head ul li a {
         text-decoration: none;
         color: orangered;
-        margin-left: 20px;
+        margin-left: 6px;
         font-size: 20px;
     }
 }
 
-@media only screen and (max-width: 547px) {
+@media only screen and (max-width: 640px) {
     .head ul li a {
         text-decoration: none;
         color: orangered;
