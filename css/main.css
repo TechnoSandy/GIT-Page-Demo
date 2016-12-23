@@ -98,7 +98,7 @@ body {
 
 /*Code for Resposive site*/
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1300px) {
     #logo {
         display: none;
     }
